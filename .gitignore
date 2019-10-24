@@ -59,3 +59,6 @@ typings/
 
 # next.js build output
 .next
+
+# lets not put my public key up there...
+*.pem
