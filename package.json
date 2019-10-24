@@ -1,0 +1,19 @@
+{
+  "name": "legacytoclouddemo",
+  "version": "1.0.0",
+  "description": "## Notes ### SSH * ssh -i ec2demo.pem ec2user@[instance]",
+  "main": "index.js",
+  "scripts": {
+      "start" : "node ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbeck8176/LegacyToCloudDemo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jbeck8176/LegacyToCloudDemo/issues"
+  },
+  "homepage": "https://github.com/jbeck8176/LegacyToCloudDemo#readme"
+}
