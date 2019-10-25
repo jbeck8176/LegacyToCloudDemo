@@ -1,4 +1,6 @@
+const spawn = require('child_process').spawn;
 exports.handler = async (event, context) => {
-    console.log("EVENT: \n" + JSON.stringify(event, null, 2))
+    const proc = spawn('php', ['todo.php']);
+    proc.stdout.pipe(process.stdout)
     return;
 }

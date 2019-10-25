@@ -1,7 +1,7 @@
 {
   "name": "legacytoclouddemo",
   "version": "1.0.0",
-  "description": "## Notes ### SSH * ssh -i ec2demo.pem ec2user@[instance]",
+  "description": "",
   "main": "index.js",
   "scripts": {
       "start" : "node ./app.js"
