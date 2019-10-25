@@ -62,3 +62,5 @@ typings/
 
 # lets not put my public key up there...
 *.pem
+
+lambda.zip
