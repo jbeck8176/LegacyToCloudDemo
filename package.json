@@ -4,7 +4,7 @@
   "description": "## Notes ### SSH * ssh -i ec2demo.pem ec2user@[instance]",
   "main": "index.js",
   "scripts": {
-      "start" : "node ./app.js"
+    "start": "node ./app.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/jbeck8176/LegacyToCloudDemo/issues"
   },
-  "homepage": "https://github.com/jbeck8176/LegacyToCloudDemo#readme"
+  "homepage": "https://github.com/jbeck8176/LegacyToCloudDemo#readme",
+  "dependencies": {
+    "ssh2": "^0.8.5"
+  }
 }
