@@ -1,3 +1,3 @@
 const index = require('./index');
 
-index.handler({thing: 'thing'});
+index.handler({});

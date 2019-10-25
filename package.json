@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-      "start" : "node ./app.js"
+    "start": "node ./app.js",
+    "package": "zip lambda.zip index.js php todo.php libcrypto.so.1.0.0 libssl.so.1.0.0"
   },
   "repository": {
     "type": "git",
