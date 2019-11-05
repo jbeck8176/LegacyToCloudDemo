@@ -1,6 +1,6 @@
 const Client = require('ssh2').Client;
 
-exports.handler = async (event, context) => {
+exports.handler = (event, context) => {
     const conn = new Client();
 
     // handle ready signal from SSH connection
@@ -32,7 +32,7 @@ exports.handler = async (event, context) => {
         host: 'ec2-54-210-131-238.compute-1.amazonaws.com',
         port: 22,
         username: 'ec2-user',
-        privateKey: require('fs').readFileSync('awsKey/ec2demo.pem')
+        privateKey: require('fs').readFileSync('awsKey/ec2demoLambda.pem')
     });
     return;
 }
