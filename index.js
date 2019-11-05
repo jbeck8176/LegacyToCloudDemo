@@ -29,7 +29,7 @@ exports.handler = async (event, context) => {
         });
     })
     .connect({
-        host: 'ec2-54-91-241-131.compute-1.amazonaws.com',
+        host: 'ec2-54-210-131-238.compute-1.amazonaws.com',
         port: 22,
         username: 'ec2-user',
         privateKey: require('fs').readFileSync('awsKey/ec2demo.pem')
